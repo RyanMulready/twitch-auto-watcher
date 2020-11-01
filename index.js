@@ -45,7 +45,7 @@ const twitchAutoWatch = {
                 name: friendNode.querySelector('.tw-c-text-overlay').getAttribute('title'),
                 streaming: friendNode.querySelector('[data-a-target="presence-text"]').innerText.includes('streaming'),
             };
-            friend.open = localStorage.getItem(friend.name);
+            friend.open = localStorage.getItem(friend.name) === 'true';
 
             if (this.options.debug) {
                 console.log(`[👀] Friend Found: ${friend.name}`, friend);
