@@ -1,0 +1,30 @@
+{
+  "name": "twitch-auto-watch",
+  "version": "0.0.1",
+  "description": "GreaseMonkey auto watch twitch",
+  "main": "index.js",
+  "prettier": "eslint-config-energysage/prettier",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Ryan Mulready",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/eslint-parser": "^7.12.1",
+    "@babel/plugin-proposal-optional-chaining": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "eslint": "^7.12.1",
+    "eslint-config-energysage": "^1.1.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-strict-vue": "^1.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "eslint-plugin-vue-a11y": "0.0.31",
+    "prettier": "^1.19.1",
+    "prettier-eslint": "^11.0.0",
+    "stylelint": "^13.7.2"
+  }
+}
