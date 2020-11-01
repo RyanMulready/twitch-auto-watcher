@@ -25,6 +25,7 @@ const twitchAutoWatch = {
         } else if (!friend.streaming && friend.open) {
             const openWindow = window.open(friend.url, friend.name, '', true);
             openWindow.window.close();
+            localStorage.setItem(friend.name, false);
             if (this.options.debug) {
                 console.log(`[👀] Drone Killed: ${friend.name}`);
             }
